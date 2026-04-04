@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600&display=swap');
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+  
+  --color-saffron: #F27D26;
+  --color-gold: #D4AF37;
+  --color-royal: #1A1A1A;
+  --color-cream: #FDFBF7;
+}
+
+body {
+  @apply bg-cream text-royal font-sans;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-serif;
+}
+
+.glass-card {
+  @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-lg;
+}
+
+.btn-primary {
+  @apply bg-saffron text-white px-6 py-3 rounded-full font-semibold transition-all hover:bg-saffron/90 hover:scale-105 active:scale-95 shadow-md;
+}
+
+.btn-secondary {
+  @apply border-2 border-saffron text-saffron px-6 py-3 rounded-full font-semibold transition-all hover:bg-saffron hover:text-white hover:scale-105 active:scale-95;
+}
