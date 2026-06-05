@@ -21,7 +21,7 @@ export const Menu = () => {
   }, []);
 
   const filteredItems = menuItems.filter(item => {
-    const matchesCategory = activeCategory === 'All' || item.category === activeCategory;
+    const matchesCategory = activeCategory === 'All';
     const matchesSearch = item.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
                          item.description.toLowerCase().includes(searchQuery.toLowerCase());
     return matchesCategory && matchesSearch;
