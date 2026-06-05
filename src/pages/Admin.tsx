@@ -81,12 +81,7 @@ export const Admin = () => {
           >
             <Trash2 className="w-5 h-5" /> Reset Menu
           </button>
-          <button 
-            onClick={() => setIsAdding(true)}
-            className="btn-primary flex items-center gap-2 py-4 px-8 justify-center"
-          >
-            <Plus className="w-6 h-6" /> Add New Dish
-          </button>
+          
         </div>
       </div>
 
