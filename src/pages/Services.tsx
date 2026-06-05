@@ -35,12 +35,12 @@ export const Services = () => {
       {/* Hero Section */}
       <section className="relative h-[50vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img 
+          {/* <img 
             src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=1920&auto=format&fit=crop" 
             alt="Indian Spices"
             className="w-full h-full object-cover brightness-50"
             referrerPolicy="no-referrer"
-          />
+          /> */}
         </div>
         <div className="relative z-10 text-center space-y-4 px-4">
           <motion.h1 
